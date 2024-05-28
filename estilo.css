@@ -1,6 +1,10 @@
+:root{
+    --branco: white;
+    --cor-de-fundo: #040506;
+}
+    
 body{
-    color: white;
-    background-color: #040506;
-
+    color: var(--branco);
+    background-color: var(--cor-de-fundo);
 
 }
