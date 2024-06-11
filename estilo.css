@@ -88,6 +88,17 @@ body{
     margin: 0 auto;
 }
 
+.parametro-senha-botoes{
+    display: flex;
+    justify-content: center;
+}
+
+.parametro-senha____botao{
+    background-color: var(--fundo-texto);
+
+
+}
+
 @media screen and (min-width: 768px); {
     .parametro-coluna__senha{
         flex-direction: row;
