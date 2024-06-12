@@ -9,14 +9,29 @@ botoes[1].onclick = aumentaTamanho;
 
 function diminuiTamanho(){ 
     if (tamanhoSenha > 1){
-        tamanhoSenha = tamanhoSenha - 1;
+        //tamanhoSenha = tamanhoSenha - 1;
+        tamanhoSenha--;
     }
     numeroSenha.textContent = tamanhoSenha;
 }
 
 function aumentaTamanho() {
-    tamanhoSenha = tamanhoSenha + 1;
+    if (tamanhoSenha < 20){
+        //tamanhoSenha = tamanhoSenha + 1;
+        tamanhoSenha++;
+    }
     numeroSenha.textContent = tamanhoSenha;
+
 }
 
-console.log(botoes);
+const campoSenha = document.querySelector('#campo-senha');console.log(botoes);
+
+const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVXYWZ';
+geraSenha();
+
+function geraSenha(){
+ let numeroAleatorio = Math.random()*letrasMaiusculas.length;
+ console.log(numeroAleatorio);
+}
+
+campoSenha.value = letrasMaiusculas;
