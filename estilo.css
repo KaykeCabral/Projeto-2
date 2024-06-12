@@ -97,6 +97,7 @@ body{
     background-color: var(--fundo-texto);
     color: var(--branco);
     border: 2px solid var(--borda);
+    padding: 24px;
 
 }
 
