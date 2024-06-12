@@ -42,7 +42,7 @@ body{
 }
 
 #campo-senha{
-    background-color: var(--fundo-senha);
+    background-color: var(--fundo-texto);
     border: none;
     color: var(--branco);
     font-family: var(--roboto-mono);
