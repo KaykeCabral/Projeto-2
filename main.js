@@ -8,7 +8,7 @@ const simbolos = '!@%*?';
 const botoes = document.querySelectorAll('.parametro-senha__botao');
 const campoSenha = document.querySelector('#campo-senha');
 const checkbox = document.querySelectorAll('.checkbox');
-const forcaSenha = document.querySelector('.forca')
+const forcaSenha = document.querySelector('.forca');
 
 botoes[0].onclick = diminuiTamanho;
 botoes[1].onclick = aumentaTamanho;
@@ -72,6 +72,5 @@ function classificaSenha(){
     } else if (tamanhoSenha <= 5){
         forcaSenha.classList.add('fraca');
      }
-
 
 }
